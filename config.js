@@ -1,5 +1,5 @@
 module.exports = {
-  OWNER_IDS: ["774304957833674782"], // Bot owner ID's
+  OWNER_IDS: ["1193634767137149059"], // Bot owner ID's
   PREFIX: "!", // Default prefix for the bot
   SUPPORT_SERVER: "https://discord.gg/jPX968wDm3", // Your bot support server
   PRESENCE: {
@@ -9,7 +9,7 @@ module.exports = {
     MESSAGE: "{members} members in {servers} servers" // Your bot status message
   },
   DASHBOARD: {
-    enabled: false, // enable or disable dashboard
+    enabled: true, // enable or disable dashboard
     baseURL: "http://localhost:8080", // base url
     failureURL: "http://localhost:8080", // failure redirect url
     port: "8080", // port to run the bot on
@@ -18,7 +18,7 @@ module.exports = {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: false, // Should contexts be enabled
     GLOBAL: false, // Should the interactions be registered globally
-    TEST_GUILD_ID: "1004398695216861227", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    TEST_GUILD_ID: "1203956999168200816", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   XP_SYSTEM: {
     COOLDOWN: 5, // Cooldown in seconds between messages
